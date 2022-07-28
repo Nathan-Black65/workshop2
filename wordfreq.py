@@ -13,7 +13,7 @@ for word in words:
 l = list()
 for key,value in d.items():
 	l.append((value,key))
-	
+
 l = sorted(l, reverse=True)
 for v,k in l:
 	print(k,v)
